@@ -1,0 +1,45 @@
+# pydantic==1.5.1
+# Pydantic是一个用于数据验证和设置管理的Python库
+pydantic==1.5.1
+# uvicorn==0.13.3
+# Uvicorn是一个基于ASGI的轻量级服务器，用于运行Python应用程序
+uvicorn==0.13.3
+# fastapi==0.63.0
+# FastAPI是一个用于构建API的现代、快速（高性能）的web框架
+fastapi==0.63.0
+# tortoise-orm==0.16.18
+# Tortoise-ORM是一个基于SQLAlchemy的异步ORM，用于Python
+tortoise-orm==0.16.18
+# aiomysql==0.0.20
+# aiomysql是一个用于Python的异步MySQL驱动程序
+aiomysql==0.0.20
+# passlib==1.7.2
+# Passlib是一个用于密码管理的Python库
+passlib==1.7.2
+# orjson==3.1.0
+# orjson是一个用于Python的快速JSON库
+orjson==3.1.0
+# bcrypt==3.1.7
+# bcrypt是一个用于Python的密码哈希库
+bcrypt==3.1.7
+# PyJWT==1.7.1
+# PyJWT是一个用于Python的JSON Web Token库
+PyJWT==1.7.1
+# requests==2.23.0
+# requests是一个用于Python的HTTP库
+requests==2.23.0
+# rsa
+# rsa是一个用于Python的RSA加密库
+rsa
+# loguru
+# loguru是一个用于Python的日志库
+loguru
+# aioredis
+# aioredis是一个用于Python的异步Redis库
+aioredis
+# APScheduler==3.7.0
+# APScheduler是一个用于Python的定时任务库
+APScheduler==3.7.0
+# SQLAlchemy==1.3.22
+# SQLAlchemy是一个用于Python的SQL工具包和对象关系映射（ORM）库
+SQLAlchemy==1.3.22
