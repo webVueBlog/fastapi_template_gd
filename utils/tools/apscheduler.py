@@ -12,11 +12,13 @@ from fastapi import FastAPI
 
 from tests.scheduler_test import run_test
 
+# 尝试导入cPickle模块，如果导入失败，则导入pickle模块
 try:
     import cPickle as pickle
 except ImportError:  # pragma: nocover
     import pickle
 
+# 尝试从sqlalchemy导入Table, Column, MetaData, Unicode, Float, SmallInteger, Integer, select, and_，如果导入失败，则抛出ImportError异常
 try:
     from sqlalchemy import (Table, Column, MetaData, Unicode, Float, SmallInteger, Integer, select, and_)
     from sqlalchemy.exc import IntegrityError
